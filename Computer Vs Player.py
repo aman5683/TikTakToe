@@ -1,4 +1,5 @@
 from functions import *
+l1=1+1
 a=['1','2','3']
 b=['4','5','6']
 c=['7','8','9']
@@ -111,7 +112,7 @@ for i in range(9) :
         if a[1]=='O' or b[0]=='O' or b[2]=='O':
             edg+=1
         
-                
+         
         
         check_col(a,b,c)
         check_row(a,b,c)
